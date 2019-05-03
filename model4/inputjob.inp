@@ -1,0 +1,103 @@
+# number of CPUs used
+CPUs
+4
+
+# Select the job ID
+# jobid = 1 for generating a cytokinesis ring
+# jobid = 2 for constricting the ring
+JOBID
+1
+
+# ==================================================
+# if generation then input following parameters
+
+# the ring radius in nm:
+RRAD
+1000
+
+# the ring width in nm:
+RWID
+200
+
+# the membrane width in nm:
+MWID
+300
+
+# the ring thickness in nm:
+RTHI
+60
+
+# the average F-actin length = number of beads
+FALEN
+100
+
+# number of F-actin
+FANUM
+400
+
+# number of Myosin and whether they turn over
+MYONUM
+800
+1
+
+# number of Crosslinkers,first alpha-actinin, then a shorter crosslinkers
+
+CRLKNUM
+600
+1000
+
+# number of nodes, node size (nm), according to Pollard model?
+
+NODE
+64
+40.0
+1
+
+# ==================================================
+
+# bending stiffness of membrane
+BEND
+0.2
+
+# pressure
+
+PRES
+0.0002
+
+# tension sensor for depolymeriztion
+TEDE
+0
+
+# tension sensor for myosin walking
+TEMY
+0
+
+# crosslinking orientation
+CROR
+1
+
+# depolymerization of F-actin
+DEPO
+1
+
+# myosin turnover or not
+MYOTURN
+1
+
+# crosslinkers depletion or not
+XLDEP
+1
+
+# crosslinker turnover
+XLTURN
+1
+
+
+# function of cofilin
+COFI
+1
+
+# half time turnover rate of unbound myosin
+HALF
+0.2
+
